@@ -61,15 +61,15 @@ declare -A PYTHON_VERSIONS=(
 **文件：`README.md`**
 
 需要替换以下占位符：
-- `YOUR-USERNAME` → 您的 GitHub 用户名
-- `YOUR-REPO` → 您的仓库名称
+- `tloneh` → GitHub 用户名
+- `uv_multi_env_manager` → 仓库名称
 - `YOUR-EMAIL@example.com` → 您的邮箱地址
 
 搜索并替换这些内容：
 ```bash
 # 使用 sed 批量替换（请先备份文件）
-sed -i 's/YOUR-USERNAME/your-actual-username/g' README.md
-sed -i 's/YOUR-REPO/your-actual-repo/g' README.md
+sed -i 's/YOUR-USERNAME/tloneh/g' README.md
+sed -i 's/YOUR-REPO/uv_multi_env_manager/g' README.md
 sed -i 's/YOUR-EMAIL@example.com/your-email@example.com/g' README.md
 ```
 

@@ -30,7 +30,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ```bash
 # 克隆项目
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
+git clone https://github.com/tloneh/uv_multi_env_manager.git
 cd uv-multi-env-manager
 
 # 设置权限

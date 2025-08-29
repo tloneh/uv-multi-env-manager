@@ -108,15 +108,15 @@ cd uv-multi-env-manager
 
 # 方法2: 如果需要从远程下载（需要修改为实际的仓库地址）
 # TODO: 替换为您的实际仓库地址
-# wget https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/uv-env-manager.sh
-# wget https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/uv-aliases.sh
-# wget https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/uv-switch.sh
-# wget https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/Makefile
+# wget https://raw.githubusercontent.com/tloneh/uv_multi_env_manager/main/scripts/uv-env-manager.sh
+# wget https://raw.githubusercontent.com/tloneh/uv_multi_env_manager/main/scripts/uv-aliases.sh
+# wget https://raw.githubusercontent.com/tloneh/uv_multi_env_manager/main/scripts/uv-switch.sh
+# wget https://raw.githubusercontent.com/tloneh/uv_multi_env_manager/main/Makefile
 
 # 方法3: 克隆整个仓库（需要修改为实际的仓库地址）
 # TODO: 替换为您的实际仓库地址
-# git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
-# cd YOUR-REPO
+# git clone https://github.com/tloneh/uv_multi_env_manager.git
+# cd uv_multi_env_manager
 
 # 设置执行权限
 chmod +x *.sh
@@ -404,8 +404,8 @@ tail -f ~/.uv-envs/uv-manager.log
 ```bash
 # 1. Fork 并克隆仓库（需要修改为实际的仓库地址）
 # TODO: 替换为您的实际仓库地址
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
-cd YOUR-REPO
+git clone https://github.com/tloneh/uv_multi_env_manager.git
+cd uv_multi_env_manager
 
 # 2. 创建开发环境
 make dev
@@ -472,9 +472,9 @@ Get-Content WINDOWS-VERIFICATION.md
 
 <!-- TODO: 请修改为您的实际联系方式 -->
 - 📧 Email: YOUR-EMAIL@example.com
-- 🐛 Issues: [GitHub Issues](https://github.com/YOUR-USERNAME/YOUR-REPO/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/YOUR-USERNAME/YOUR-REPO/discussions)
-- 📖 Wiki: [项目 Wiki](https://github.com/YOUR-USERNAME/YOUR-REPO/wiki)
+- 🐛 Issues: [GitHub Issues](https://github.com/tloneh/uv_multi_env_manager/issues)
+- 💬 Discussions: [GitHub Discussions](https://github.com/tloneh/uv_multi_env_manager/discussions)
+- 📖 Wiki: [项目 Wiki](https://github.com/tloneh/uv_multi_env_manager/wiki)
 
 ---
 ## 🏗️ 项目结构

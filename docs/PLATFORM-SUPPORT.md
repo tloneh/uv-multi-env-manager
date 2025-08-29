@@ -317,7 +317,7 @@ $env:PATH += ";C:\Users\$env:USERNAME\.local\bin"
 
 ### Linux/macOS
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
+git clone https://github.com/tloneh/uv_multi_env_manager.git
 cd uv-multi-env-manager
 chmod +x *.sh
 ./example.sh
@@ -325,17 +325,17 @@ chmod +x *.sh
 
 ### Windows PowerShell
 ```powershell
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
-cd uv-multi-env-manager
-.\uv-env-manager.ps1 create myproject python3.12
+git clone https://github.com/tloneh/uv_multi_env_manager.git
+cd uv_multi_env_manager
+.\scripts\uv-env-manager.ps1 create myproject python3.12
 ```
 
 ### Windows WSL
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
-cd uv-multi-env-manager
-chmod +x *.sh
-./example.sh
+git clone https://github.com/tloneh/uv_multi_env_manager.git
+cd uv_multi_env_manager
+chmod +x scripts/*.sh
+./examples/example.sh
 ```
 
 ---

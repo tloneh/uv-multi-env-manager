@@ -31,7 +31,7 @@ uv --version
 #### 2. 获取工具
 ```powershell
 # 克隆项目
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
+git clone https://github.com/tloneh/uv_multi_env_manager.git
 cd uv-multi-env-manager
 
 # 设置执行策略（如果需要）

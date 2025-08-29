@@ -5,7 +5,7 @@
 ## 🤝 如何贡献
 
 ### 报告问题
-- 使用 [GitHub Issues](https://github.com/your-repo/issues) 报告 bug
+- 使用 [GitHub Issues](https://github.com/tloneh/uv_multi_env_manager/issues) 报告 bug
 - 提供详细的错误信息和复现步骤
 - 包含系统信息（OS、Python版本、UV版本）
 
@@ -58,7 +58,7 @@
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/your-username/uv-multi-env.git
+git clone https://github.com/tloneh/uv_multi_env_manager.git
 cd uv-multi-env
 
 # 2. 设置开发环境
@@ -197,7 +197,7 @@ run_tests
 如果您在贡献过程中遇到问题：
 
 - 查看 [FAQ](docs/FAQ.md)
-- 在 [Discussions](https://github.com/your-repo/discussions) 中提问
+- 在 [Discussions](https://github.com/tloneh/uv_multi_env_manager/discussions) 中提问
 - 联系维护者：your-email@example.com
 
 ## 📄 许可证
