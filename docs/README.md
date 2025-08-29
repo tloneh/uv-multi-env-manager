@@ -34,7 +34,7 @@
 ## ✨ 特性
 
 - 🎯 **多环境支持** - 同时管理开发、测试、生产等多个环境
-- 🐍 **多 Python 版本** - 支持 Python 3.11、3.12、3.13 等版本
+- 🐍 **多 Python 版本** - 支持 Python 3.11、3.12、3.13 等版本（测试过版本，理论上所有版本均支持）
 - 🔄 **快速切换** - 一键切换不同项目环境
 - 📦 **依赖管理** - 自动化包安装和依赖管理
 - 🎨 **友好界面** - 彩色输出和直观的命令行界面
@@ -63,7 +63,11 @@ uv-dev
 # 6. 安装项目依赖
 uv pip install -e .
 ```
+如果你已经使用了这个工具，可以在工具目录的更目录直接运行下面指令即可在当前终端激活工具（其实就是&&合并了一下哈）：
 
+```bash
+cd uv-multi-env-manager && source scripts/uv-aliases.sh && cd ..
+```
 ## 📦 安装
 
 ### 前置要求
@@ -115,10 +119,8 @@ wget https://raw.githubusercontent.com/tloneh/uv-multi-env-manager/main/Makefile
 # 方法3: 克隆整个仓库（需要修改为实际的仓库地址）
 # TODO: 替换为您的实际仓库地址
 git clone https://github.com/tloneh/uv-multi-env-manager.git
-cd uv-multi-env-manager
 
-# 设置执行权限
-chmod +x scripts/*.sh
+cd uv-multi-env-manager && source scripts/uv-aliases.sh && chmod +x scripts/*.sh && cd ..
 ```
 
 ## 📖 使用方法
@@ -127,7 +129,7 @@ chmod +x scripts/*.sh
 
 ```bash
 # 加载别名
-source scripts/uv-aliases.sh
+cd uv-multi-env-manager && source scripts/uv-aliases.sh && cd ..
 
 # 环境管理
 uv-create myproject python3.12    # 创建环境
