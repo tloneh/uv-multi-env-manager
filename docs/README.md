@@ -46,7 +46,7 @@
 
 ```bash
 # 1. 进入工具目录
-cd uv-multi-env-manager
+cd uv_multi_env_manager
 
 # 2. 运行使用示例（推荐新用户）
 ./examples/example.sh
