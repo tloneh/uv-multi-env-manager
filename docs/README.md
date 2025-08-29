@@ -107,18 +107,18 @@ cd uv-multi-env-manager
 
 # 方法2: 如果需要从远程下载（需要修改为实际的仓库地址）
 # TODO: 替换为您的实际仓库地址
-# wget https://raw.githubusercontent.com/tloneh/uv-multi-env-manager/main/scripts/uv-env-manager.sh
-# wget https://raw.githubusercontent.com/tloneh/uv-multi-env-manager/main/scripts/uv-aliases.sh
-# wget https://raw.githubusercontent.com/tloneh/uv-multi-env-manager/main/scripts/uv-switch.sh
-# wget https://raw.githubusercontent.com/tloneh/uv-multi-env-manager/main/Makefile
+wget https://raw.githubusercontent.com/tloneh/uv-multi-env-manager/main/scripts/uv-env-manager.sh
+wget https://raw.githubusercontent.com/tloneh/uv-multi-env-manager/main/scripts/uv-aliases.sh
+wget https://raw.githubusercontent.com/tloneh/uv-multi-env-manager/main/scripts/uv-switch.sh
+wget https://raw.githubusercontent.com/tloneh/uv-multi-env-manager/main/Makefile
 
 # 方法3: 克隆整个仓库（需要修改为实际的仓库地址）
 # TODO: 替换为您的实际仓库地址
-# git clone https://github.com/tloneh/uv-multi-env-manager.git
-# cd uv-multi-env-manager
+git clone https://github.com/tloneh/uv-multi-env-manager.git
+cd uv-multi-env-manager
 
 # 设置执行权限
-chmod +x *.sh
+chmod +x scripts/*.sh
 ```
 
 ## 📖 使用方法
