@@ -472,11 +472,9 @@ uv-multi-env-manager/
 │   ├── INSTALLATION.md        # 安装配置指南
 │   ├── QUICK-REFERENCE.md     # 命令快速参考
 │   ├── UV-ENVIRONMENTS-GUIDE.md # 环境管理详细指南
-│   ├── PLATFORM-SUPPORT.md   # 跨平台支持总览
 │   ├── MACOS-GUIDE.md         # macOS 使用指南
 │   ├── WINDOWS-GUIDE.md       # Windows 使用指南
 │   ├── CONTRIBUTING.md        # 贡献指南
-│   ├── DOCS-STRUCTURE.md      # 文档结构说明
 │   └── LICENSE               # MIT 开源许可证
 ├── 🛠️ scripts/                 # 🔧 核心脚本
 │   ├── uv-env-manager.sh      # Linux/macOS 环境管理器
