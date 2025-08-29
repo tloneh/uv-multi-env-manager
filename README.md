@@ -1,7 +1,8 @@
 # 🚀 UV Multi-Environment Manager
 
-一个强大的 Python 虚拟环境管理工具，基于 UV 构建，支持跨平台使用。
+一个强大的 Python 虚拟环境管理工具，基于 UV 构建。
 
+UV使用时终于不用再苦苦等待包下载了。不过UV在虚拟环境创建上需要手动写路径才能不产生冲突，其次管理起来比较不方便，如果可以像anaconda一样可以直接用名字更换就好了，然后就有了这个环境管理小脚本，如果你也有一样的烦恼，可以试着用一用。
 ## 📁 项目结构
 
 ```
@@ -17,7 +18,6 @@ uv-multi-env-manager/
 
 ### 📖 阅读文档
 - **[完整文档](docs/README.md)** - 详细使用指南
-- **[快速参考](docs/QUICK-REFERENCE.md)** - 常用命令
 - **[安装指南](docs/INSTALLATION.md)** - 详细安装说明
 
 ### 🛠️ 使用脚本
@@ -44,13 +44,11 @@ uv-multi-env-manager/
 - **[QUICK-REFERENCE.md](docs/QUICK-REFERENCE.md)** - 命令快速参考
 
 ### 🌍 平台指南
-- **[PLATFORM-SUPPORT.md](docs/PLATFORM-SUPPORT.md)** - 跨平台支持
 - **[MACOS-GUIDE.md](docs/MACOS-GUIDE.md)** - macOS 使用指南
 - **[WINDOWS-GUIDE.md](docs/WINDOWS-GUIDE.md)** - Windows 使用指南
 
 ### 🤝 开发文档
 - **[CONTRIBUTING.md](docs/CONTRIBUTING.md)** - 贡献指南
-- **[DOCS-STRUCTURE.md](docs/DOCS-STRUCTURE.md)** - 文档结构
 
 ## ⚡ 核心功能
 
